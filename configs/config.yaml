@@ -1,0 +1,27 @@
+# configs/config.yaml
+data:
+  # Dataset source
+  dataset_name: "McAuley-Lab/Amazon-Reviews-2023"
+  
+  # Start with a small category for development
+  # Options: All_Beauty, Electronics, Books, Video_Games, etc.
+  category: "All_Beauty"
+  
+  # Local storage paths
+  raw_data_dir: "./data/raw"
+  processed_dir: "./data/processed"
+  cache_dir: "./data/cache"
+  
+  # Sampling for initial development
+  sample_size: 10000  # Set to null for full dataset
+  
+database:
+  # Connection strings (update with your credentials)
+  postgres: "postgresql://user:password@localhost:5432/amazon_reviews"
+  mongodb: "mongodb://localhost:27017/amazon_reviews"
+  neo4j: "bolt://localhost:7687"
+  redis: "redis://localhost:6379/0"
+
+logging:
+  level: INFO
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
