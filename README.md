@@ -312,7 +312,7 @@ recommendations = rec.recommend(user_id="user_123", n=10)
 | Clustering | 632K users segmented | Silhouette 0.762 (excellent) |
 | Recommendation | 4-method hybrid | <300ms latency |
 
-## 🛠️ Technologies Used
+## 🧰 Technologies Used
 
 - **Databases:** PostgreSQL, MongoDB, Neo4j
 - **ML/AI:** scikit-learn, sentence-transformers, FAISS, UMAP
