@@ -9,7 +9,7 @@ A comprehensive data analysis platform implementing multi-database architectures
 
 ## 👥 Team
 - HAFIL ABDUL KADHAR
-- Teammate 1
+- Ryan Collier
 - Teammate 2
 - Teammate 3
   
