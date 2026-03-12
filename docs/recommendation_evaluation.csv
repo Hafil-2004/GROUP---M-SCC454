@@ -1,5 +1,0 @@
-method,k,n_users_evaluated,precision_at_k,recall_at_k,f1_at_k
-user_cf,10,20,0.0,0.0,0
-item_cf,10,20,0.0,0.0,0
-content_based,10,20,0.0,0.0,0
-hybrid,10,20,0.0,0.0,0
