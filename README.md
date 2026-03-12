@@ -16,6 +16,7 @@ A comprehensive data analysis platform implementing multi-database architectures
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
+- [Dataset](#-dataset)
 - [Architecture](#-architecture)
 - [Project Structure](#-project-structure)
 - [Tasks](#-tasks)
@@ -38,6 +39,30 @@ This project implements a complete data analysis pipeline for e-commerce product
 - **701K+ reviews**
 - **112K+ products**
 - **632K+ users**
+  
+## 🤗 Dataset
+
+All dataset files are hosted on Hugging Face:
+
+🔗 **[amazon-reviews-2023-beauty-processed](https://huggingface.co/datasets/Hafil-2004/amazon-reviews-2023-beauty-processed)**
+
+### Download Dataset
+
+**Option 1 — Python script**
+```python
+from huggingface_hub import snapshot_download
+
+snapshot_download(
+    repo_id="Hafil-2004/amazon-reviews-2023-beauty-processed",
+    repo_type="dataset",
+    local_dir="data/"
+)
+```
+
+**Option 2 — Terminal**
+```bash
+huggingface-cli download Hafil-2004/amazon-reviews-2023-beauty-processed --repo-type dataset --local-dir data/
+```
 
 ## 🧱 Architecture
 
