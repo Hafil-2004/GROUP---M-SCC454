@@ -38,7 +38,7 @@ This project implements a complete data analysis pipeline for e-commerce product
 - **112K+ products**
 - **632K+ users**
 
-## ⚙️ Architecture
+## 🏛️ Architecture
 
 We implement a **hybrid database architecture** leveraging the strengths of three database systems:
 
