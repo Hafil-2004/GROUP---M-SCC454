@@ -1,0 +1,55 @@
+{
+  "cluster_0": {
+    "size": 602,
+    "avg_price": 17.917380952380952,
+    "price_range": {
+      "min": 3.49,
+      "max": 75.9
+    },
+    "avg_rating": 3.7332225913621255,
+    "top_categories": {
+      "All Beauty": 602
+    },
+    "sample_products": [
+      "4 Pieces Satin Bonnet Adjustable Sleep Cap Double Layer Printed Hair Bonnet Large Reversible Sleeping Silk Night Hair Cap for Women Natural Curly Hair (Floral, Flamingo, Flower)",
+      "Stainless Steel Beard Comb, Portable Fashionable Engraving Design Mustache Hair Comb for Beard Trimming Styling and Shaping",
+      "Dingxiu (5Packs,24\") Two Tone Jumbo Braid Ombre Braiding Hair Extensions Afro Box Braids Crochet Hair Synthetic Fiber Hair 100g/pack(24 Inch, 1B)"
+    ]
+  },
+  "cluster_1": {
+    "size": 623,
+    "avg_price": 31.070972972972974,
+    "price_range": {
+      "min": 2.5,
+      "max": 295.0
+    },
+    "avg_rating": 4.139325842696629,
+    "top_categories": {
+      "All Beauty": 615,
+      "Premium Beauty": 8
+    },
+    "sample_products": [
+      "Howard LC0008 Leather Conditioner, 8-Ounce (4-Pack)",
+      "Yes to Tomatoes Detoxifying Charcoal Cleanser (Pack of 2) with Charcoal Powder, Tomato Fruit Extract, and Gingko Biloba Leaf Extract, 5 fl. oz.",
+      "Gold extatic Musk EDT 90ml"
+    ]
+  },
+  "cluster_2": {
+    "size": 775,
+    "avg_price": 20.790608108108106,
+    "price_range": {
+      "min": 0.59,
+      "max": 179.95
+    },
+    "avg_rating": 3.934322580645161,
+    "top_categories": {
+      "All Beauty": 772,
+      "Premium Beauty": 3
+    },
+    "sample_products": [
+      "Eye Patch Black Adult with Tie Band (6 Per Pack)",
+      "Tattoo Eyebrow Stickers, Waterproof Eyebrow, 4D Imitation Eyebrow Tattoos, 4D Hair-like Authentic Eyebrows Waterproof Long Lasting for Woman & Man Makeup Tool",
+      "Precision Plunger Bars for Cartridge Grips \u2013 93mm \u2013 Bag of 10 Plungers"
+    ]
+  }
+}
