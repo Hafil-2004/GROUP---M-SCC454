@@ -267,6 +267,7 @@ umap-learn>=0.5.0
 matplotlib>=3.5.0
 seaborn>=0.12.0
 tqdm>=4.64.0
+huggingface_hub>=0.20.0
 ```
 
 ## 💻 Usage
@@ -363,5 +364,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Dataset:** [Amazon Reviews 2023](https://amazon-reviews-2023.github.io/) by McAuley et al., UC San Diego
 - **Course:** SCC 454 - Large Scale Platforms for AI and Data Analysis, Lancaster University
 - **Tools:** scikit-learn, FAISS, sentence-transformers communities
+- **Hugging Face:** [amazon-reviews-2023-beauty-processed](https://huggingface.co/datasets/Hafil-2004/amazon-reviews-2023-beauty-processed)
 
 > **Note:** This is an academic project for educational purposes. The dataset is used under the original license terms.
