@@ -36,36 +36,39 @@ This project implements a complete data analysis pipeline for e-commerce product
 
 We implement a **hybrid database architecture** leveraging the strengths of three database systems:
 
+```
 ┌─────────────────────────────────────────────────────────────┐
 │                    Application Layer                        │
 └───────────────────────┬─────────────────────────────────────┘
-│
-┌───────────────┼───────────────┐
-▼               ▼               ▼
-┌─────────┐    ┌──────────┐    ┌──────────┐
-│ MongoDB │    │PostgreSQL│    │  Neo4j   │
-│(Primary)│    │(Analytics│    │ (Graph)  │
-│ Catalog │    │Reporting)│    │Recommend │
-└─────────┘    └──────────┘    └──────────┘
-│               │               │
-└───────────────┴───────────────┘
-│
-┌─────────┴──────────┐
-▼                    ▼
-┌────────────┐      ┌──────────────┐
-│   FAISS    │      │   Scikit-    │
-│ (Similarity│      │   Learn      │
-│   Search)  │      │ (Clustering) │
-└────────────┘      └──────────────┘
-
+                        │
+           ┌────────────┼────────────┐
+           ▼            ▼            ▼
+      ┌─────────┐  ┌──────────┐  ┌──────────┐
+      │ MongoDB │  │PostgreSQL│  │  Neo4j   │
+      │(Primary)│  │(Analytics│  │ (Graph)  │
+      │ Catalog │  │Reporting)│  │Recommend │
+      └─────────┘  └──────────┘  └──────────┘
+           │            │            │
+           └────────────┴────────────┘
+                        │
+           ┌────────────┴────────────┐
+           ▼                         ▼
+    ┌────────────┐           ┌──────────────┐
+    │   FAISS    │           │   Scikit-    │
+    │ (Similarity│           │   Learn      │
+    │   Search)  │           │ (Clustering) │
+    └────────────┘           └──────────────┘
+```
 
 ## 📁 Project Structure
+
+```
 ├── configs/
-│   └──config
+│   └── config.yaml
 ├── data/
 │   ├── raw/
 │   │   ├── All_Beauty_meta.jsonl
-│   │   ├── All_Beauty_reviews.jsonl
+│   │   └── All_Beauty_reviews.jsonl
 │   ├── processed/
 │   │   ├── All_Beauty_metadata_cleaned.parquet
 │   │   ├── All_Beauty_reviews_cleaned.parquet
@@ -77,22 +80,22 @@ We implement a **hybrid database architecture** leveraging the strengths of thre
 │   │   ├── user_clusters_dbscan.parquet
 │   │   ├── user_clusters_kmeans.parquet
 │   │   └── user_lookup.parquet
-│   └── cache/               
+│   └── cache/
 ├── src/
-│   ├── task1_databases/         
+│   ├── task1_databases/
 │   │   ├── mongo_manager.py
 │   │   ├── neo4j_manager.py
 │   │   └── postgres_manager.py
-│   ├── task2_similarity/       
+│   ├── task2_similarity/
 │   │   ├── feature_extractors.py
 │   │   ├── similarity_service.py
 │   │   └── vector_stores.py
-│   ├── task3_clustering/       
-│   │   ├── clustering_service.py
-│   ├── task4_recommendation/   
+│   ├── task3_clustering/
+│   │   └── clustering_service.py
+│   ├── task4_recommendation/
 │   │   └── recommendation_service.py
 │   ├── data_inspector.py
-│   └── data_preprocessing,py
+│   └── data_preprocessing.py
 ├── docs/
 │   ├── task1_database_comparison.md
 │   ├── task2_similarity_evaluation.md
@@ -100,10 +103,10 @@ We implement a **hybrid database architecture** leveraging the strengths of thre
 │   └── task4_recommendation_evaluation.md
 ├── notebooks/
 │   ├── 01_eda.py
-│   └── task 2 visualization.py
+│   └── task2_visualization.py
 ├── requirements.txt
 └── README.md
-
+```
 
 ## 🗄️ Task 1: Database System Comparison
 
@@ -215,3 +218,118 @@ python scripts/download_data.py
 
 # Setup databases
 python src/task1_database/setup_all.py
+```
+
+### Requirements
+
+```txt
+pandas>=1.5.0
+numpy>=1.21.0
+scikit-learn>=1.1.0
+sentence-transformers>=2.2.0
+faiss-cpu>=1.7.0
+pymongo>=4.3.0
+psycopg2-binary>=2.9.0
+neo4j>=5.0.0
+umap-learn>=0.5.0
+matplotlib>=3.5.0
+seaborn>=0.12.0
+tqdm>=4.64.0
+```
+
+## 💻 Usage
+
+### Task 1: Database Queries
+
+```python
+from src.task1_databases import MongoManager, PostgresManager, Neo4jManager
+
+# MongoDB - Fast product lookup
+mongo = MongoManager()
+product = mongo.get_product("B08P4GRYY8")
+
+# PostgreSQL - Complex analytics
+pg = PostgresManager()
+stats = pg.get_product_stats("B08P4GRYY8")
+
+# Neo4j - Relationship queries
+neo4j = Neo4jManager()
+similar = neo4j.find_similar_users("user_123")
+```
+
+### Task 2: Similarity Search
+
+```python
+from src.task2_similarity import SimilarityService
+
+# Initialize hybrid model
+sim = SimilarityService()
+sim.build_indices(products_df)
+
+# Search similar products
+results = sim.search("leather conditioner", top_k=5)
+# Returns: [(product_id, similarity_score, product_name), ...]
+```
+
+### Task 3: Clustering
+
+```python
+from src.task3_clustering import ClusteringService
+
+# User clustering
+clustering = ClusteringService()
+user_clusters = clustering.cluster_users_kmeans(user_features, n_clusters=2)
+
+# Product clustering
+product_clusters = clustering.cluster_products_hierarchical(product_features, n_clusters=5)
+```
+
+### Task 4: Recommendations
+
+```python
+from src.task4_recommendation import RecommendationService
+
+# Initialize recommender
+rec = RecommendationService()
+rec.fit(interaction_matrix, product_features)
+
+# Get recommendations
+recommendations = rec.recommend(user_id="user_123", n=10)
+```
+
+## 📈 Results Summary
+
+| Task | Key Achievement | Performance |
+|------|----------------|-------------|
+| Database | Hybrid architecture design | MongoDB 137x faster than PostgreSQL |
+| Similarity | Hybrid TF-IDF + BERT | 0.93 similarity score |
+| Clustering | 632K users segmented | Silhouette 0.762 (excellent) |
+| Recommendation | 4-method hybrid | <300ms latency |
+
+## 🛠️ Technologies Used
+
+- **Databases:** PostgreSQL, MongoDB, Neo4j
+- **ML/AI:** scikit-learn, sentence-transformers, FAISS, UMAP
+- **Data:** pandas, NumPy, PyArrow
+- **Visualization:** matplotlib, seaborn
+- **Similarity:** FAISS, Annoy, cosine similarity
+
+## 🤝 Contributing
+
+1. Fork the repository
+2. Create feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit changes (`git commit -m 'Add amazing feature'`)
+4. Push to branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
+
+## 📝 License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+## 🙏 Acknowledgments
+
+- **Dataset:** [Amazon Reviews 2023](https://amazon-reviews-2023.github.io/) by McAuley et al., UC San Diego
+- **Course:** SCC 454 - Large Scale Platforms for AI and Data Analysis, Lancaster University
+- **Tools:** scikit-learn, FAISS, sentence-transformers communities
+
+> **Note:** This is an academic project for educational purposes. The dataset is used under the original license terms.
