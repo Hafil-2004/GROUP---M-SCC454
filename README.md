@@ -3,6 +3,7 @@
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Dataset](https://img.shields.io/badge/Dataset-Amazon%20Reviews%202023-orange.svg)](https://amazon-reviews-2023.github.io/)
+[![HuggingFace](https://img.shields.io/badge/🤗%20Hugging%20Face-Dataset-yellow.svg)](https://huggingface.co/datasets/Hafil-2004/amazon-reviews-2023-beauty-processed)
 
 A comprehensive data analysis platform implementing multi-database architectures, similarity computation, clustering analysis, and recommendation systems for the Amazon Reviews 2023 dataset (All Beauty category).
 
