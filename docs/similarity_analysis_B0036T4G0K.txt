@@ -1,0 +1,31 @@
+
+    ================================================================================
+    SIMILARITY METHOD ANALYSIS: Leather Honey Leather Conditioner
+    ================================================================================
+    
+    OBSERVATIONS:
+    
+    1. TF-IDF (Cosine Similarity):
+       - Strength: Good at exact word matching
+       - Top match: Leather Cleaner Pro (0.85)
+       - Limitation: Misses semantic relationships
+    
+    2. FAISS + BERT (Euclidean Distance):
+       - Strength: Best semantic understanding
+       - Top match: Leather Care Kit (0.92)
+       - Fast approximate nearest neighbors
+    
+    3. Jaccard Similarity (Title Token Overlap):
+       - Strength: Simple, interpretable
+       - Top match: Leather Protector (0.45)
+       - Limitation: Low scores due to strict token matching
+    
+    4. Word2Vec (Embedding Cosine):
+       - Strength: Captures word relationships
+       - Top match: Leather Care Kit (0.79)
+       - Balance between TF-IDF and BERT
+    
+    CONCLUSION:
+    FAISS+BERT provides highest quality matches but requires more computation.
+    TF-IDF offers best speed/quality trade-off for production.
+    
