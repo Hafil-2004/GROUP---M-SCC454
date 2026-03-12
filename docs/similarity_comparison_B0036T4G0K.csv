@@ -1,6 +1,0 @@
-Rank,TF-IDF + FAISS,BERT + FAISS,Metadata + Annoy,Hybrid
-1,Leather Cleaner Pro Premium (0.83),Leather Care Kit Deluxe (0.58),Generic Skin Cream (0.03),Leather Care Kit Deluxe (0.93)
-2,Leather Care Kit Deluxe (0.79),Leather Cleaner Pro Premium (0.55),Body Lotion Unscented (0.03),Leather Cleaner Pro Premium (0.89)
-3,Leather Protector Spray (0.75),Leather Moisturizing Balm (0.52),Hand Cream Moisturizer (0.03),Leather Protector Spray (0.85)
-4,Leather Restorer Cream (0.71),Leather Treatment Oil (0.49),Foot Care Balm (0.02),Leather Restorer Cream (0.82)
-5,Leather Polish Shine (0.68),Leather Conditioning Cream (0.46),Skin Protectant Ointment (0.02),Leather Conditioning Cream (0.78)
