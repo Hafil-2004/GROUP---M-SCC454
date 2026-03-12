@@ -35,3 +35,72 @@ This project implements a complete data analysis pipeline for e-commerce product
 ## 🏗️ Architecture
 
 We implement a **hybrid database architecture** leveraging the strengths of three database systems:
+
+┌─────────────────────────────────────────────────────────────┐
+│                    Application Layer                        │
+└───────────────────────┬─────────────────────────────────────┘
+│
+┌───────────────┼───────────────┐
+▼               ▼               ▼
+┌─────────┐    ┌──────────┐    ┌──────────┐
+│ MongoDB │    │PostgreSQL│    │  Neo4j   │
+│(Primary)│    │(Analytics│    │ (Graph)  │
+│ Catalog │    │Reporting)│    │Recommend │
+└─────────┘    └──────────┘    └──────────┘
+│               │               │
+└───────────────┴───────────────┘
+│
+┌─────────┴──────────┐
+▼                    ▼
+┌────────────┐      ┌──────────────┐
+│   FAISS    │      │   Scikit-    │
+│ (Similarity│      │   Learn      │
+│   Search)  │      │ (Clustering) │
+└────────────┘      └──────────────┘
+
+
+## 📁 Project Structure
+├── configs/
+│   └──config
+├── data/
+│   ├── raw/
+│   │   ├── All_Beauty_meta.jsonl
+│   │   ├── All_Beauty_reviews.jsonl
+│   ├── processed/
+│   │   ├── All_Beauty_metadata_cleaned.parquet
+│   │   ├── All_Beauty_reviews_cleaned.parquet
+│   │   ├── product_clusters_hierarchical.parquet
+│   │   ├── product_clusters_kmeans.parquet
+│   │   ├── product_lookup.parquet
+│   │   ├── test_reviews.parquet
+│   │   ├── train_reviews.parquet
+│   │   ├── user_clusters_dbscan.parquet
+│   │   ├── user_clusters_kmeans.parquet
+│   │   └── user_lookup.parquet
+│   └── cache/               
+├── src/
+│   ├── task1_databases/         
+│   │   ├── mongo_manager.py
+│   │   ├── neo4j_manager.py
+│   │   └── postgres_manager.py
+│   ├── task2_similarity/       
+│   │   ├── feature_extractors.py
+│   │   ├── similarity_service.py
+│   │   └── vector_stores.py
+│   ├── task3_clustering/       
+│   │   ├── clustering_service.py
+│   ├── task4_recommendation/   
+│   │   └── recommendation_service.py
+│   ├── data_inspector.py
+│   └── data_preprocessing,py
+├── docs/
+│   ├── task1_database_comparison.md
+│   ├── task2_similarity_evaluation.md
+│   ├── task3_clustering_report.md
+│   └── task4_recommendation_evaluation.md
+├── notebooks/
+│   ├── 01_eda.py
+│   └── task 2 visualization.py
+├── requirements.txt
+└── README.md
+
