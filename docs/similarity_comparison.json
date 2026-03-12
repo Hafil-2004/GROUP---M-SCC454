@@ -1,0 +1,1052 @@
+{
+  "B01CUPMQZE": {
+    "tfidf_faiss": [
+      {
+        "asin": "B005HLOMWY",
+        "title": "Citre Shine Fresh Fusion Revitalizing Conditioner Normal Hair 13.5 Ounce (Pack of 6)",
+        "score": 0.8297964334487915
+      },
+      {
+        "asin": "B01MXLAV65",
+        "title": "Ogx Conditioner Orchid Oil Fade Defying 13 Ounce (385ml) (2 Pack)",
+        "score": 0.811855673789978
+      },
+      {
+        "asin": "B01GQLJ7HI",
+        "title": "Pantene Pro-V Damage Repair Cleansing Conditioner, 16.9 Ounce, (Pack of 3)",
+        "score": 0.7023215293884277
+      },
+      {
+        "asin": "B08M4C9FXM",
+        "title": "Bantu Yellow-Out Conditioner (Pack of 4)",
+        "score": 0.6949864029884338
+      },
+      {
+        "asin": "B012GJPEZ8",
+        "title": "Herbal Essences Naked Shine Conditioner, 16.9 Fluid Ounce",
+        "score": 0.6735601425170898
+      },
+      {
+        "asin": "B00MX4597U",
+        "title": "Aussie Moist Shampoo and Conditioner, 13.5 Ounce Each, Plus 3 Minute Miracle Moist, 8 Ounce",
+        "score": 0.666062593460083
+      },
+      {
+        "asin": "B00OQJU1KA",
+        "title": "Dax SuperGro, 7 Ounce",
+        "score": 0.6171467304229736
+      },
+      {
+        "asin": "B01BN6INBM",
+        "title": "John Frieda Brilliant Brunette Treatment Visibly Deeper 4 Ounce (118ml) (2 Pack)",
+        "score": 0.6130388379096985
+      },
+      {
+        "asin": "B01M2BWVTI",
+        "title": "John Frieda Brilliant Brunette Visibly Brighter Bundle: Subtle Lightening Shampoo & Conditioner, 8.3",
+        "score": 0.6068130731582642
+      },
+      {
+        "asin": "B01MTDAGAQ",
+        "title": "Maui Moisture Conditioner Shea Butter 13 Ounce (Hydrate) (385ml) (Pack of 2)",
+        "score": 0.5701816082000732
+      }
+    ],
+    "bert_faiss": [
+      {
+        "asin": "B01GQLJ7HI",
+        "title": "Pantene Pro-V Damage Repair Cleansing Conditioner, 16.9 Ounce, (Pack of 3)",
+        "score": 0.6287438273429871
+      },
+      {
+        "asin": "B0128EVZDG",
+        "title": "Axe Shampoo and Conditioner, Heat, 2 in 1, 22 Oz (Pack of 4)",
+        "score": 0.5922360420227051
+      },
+      {
+        "asin": "B01MTDAGAQ",
+        "title": "Maui Moisture Conditioner Shea Butter 13 Ounce (Hydrate) (385ml) (Pack of 2)",
+        "score": 0.5875310897827148
+      },
+      {
+        "asin": "B00OZWSSDK",
+        "title": "PRO Leather Lotion",
+        "score": 0.5837770104408264
+      },
+      {
+        "asin": "B01LXU70OX",
+        "title": "Gilchrist & Soames Conditioner (Spa Therapy Collection Conditioner (old version), 8oz)",
+        "score": 0.5803500413894653
+      },
+      {
+        "asin": "B07RX5C1K3",
+        "title": "Caviar Natural Leather Conditioner Restorer Cream for Designer Handbags, Purses, Shoes, Luggage, Bag",
+        "score": 0.5753870010375977
+      },
+      {
+        "asin": "B01IAEBWWM",
+        "title": "New York Color Liquid Eyeliner, Extreme Black 0.15 oz (Pack of 8)",
+        "score": 0.5704954266548157
+      },
+      {
+        "asin": "B016V2K5LO",
+        "title": "Imperial Leather Classic by Cussons 4 x 75g bars",
+        "score": 0.5661185383796692
+      },
+      {
+        "asin": "B00KJTZ6P6",
+        "title": "Satinique Color Repair Conditioner 25.6oz",
+        "score": 0.5580828785896301
+      },
+      {
+        "asin": "B0785T2X3D",
+        "title": "Sally Hansen Big Shiny Top Coat 0.4 Ounce (12ml) (2 Pack)",
+        "score": 0.5565482378005981
+      }
+    ],
+    "metadata_annoy": [
+      {
+        "asin": "B08M5DXZDJ",
+        "title": "Big Bow Headbands Party Daily Hairband Halloween Christmas Hair Bands fit Women Teen Girls Teams Hai",
+        "score": 0.00011400086077628657
+      },
+      {
+        "asin": "B07QWBWKVW",
+        "title": "Wide Tooth Comb for Curly Hair - Natural Purpleheart Wood Comb - Anti Static Bull Horn Comb for Wome",
+        "score": 0.00011400086077628657
+      },
+      {
+        "asin": "B01B8B8YL6",
+        "title": "Dionis Goat Milk Hand Cream 4 Piece Travel Gift Set",
+        "score": 0.00011400086077628657
+      },
+      {
+        "asin": "B07SGJMMMN",
+        "title": "Pack of 9 Sheets, Temporary Tattoo Stickers For Women and Young Girls, Waterproof Tattoos with Fashi",
+        "score": 0.00011400086077628657
+      },
+      {
+        "asin": "B07KGQ5ZSP",
+        "title": "Brisk Grooming Citrus and Tea Tree Beard Oil Variety Pack, 1.7 Ounce, 2 Count",
+        "score": 0.00011400086077628657
+      },
+      {
+        "asin": "B09JK8VKTR",
+        "title": "AIFAIFA 25Pcs Nail Gel Polish Kit, Gel Nail Polish Color Collection Soak Off UV, Gel Polish with Bas",
+        "score": 0.0007610281463712454
+      },
+      {
+        "asin": "B01BR32C1S",
+        "title": "Healthcom Butterfly Shape Stainless Steel Makeup Palette Spatula Very Handy Makeup Nail-art Manicure",
+        "score": 0.0007610281463712454
+      },
+      {
+        "asin": "B01ACN64R2",
+        "title": "Revlon Dramatic Definition Mascara, Blackened Brown, 0.28 fl ounces (Pack of 2)",
+        "score": 0.0007911598077043891
+      },
+      {
+        "asin": "B07TTRCVM4",
+        "title": "Apipi 30 Sheet Mexican Fiesta Temporary Tattoos- 300+ Pcs Different Patterns Fiesta Cactus Party Tat",
+        "score": 0.0007911598077043891
+      },
+      {
+        "asin": "B0853ZXMXY",
+        "title": "Lazy Double Color Eyeshadow Stick, 2 in 1 Color Lazy Eye Shadow Powder Double-Layer Gradient Eyeshad",
+        "score": 0.0014400824438780546
+      }
+    ],
+    "hybrid_faiss": [
+      {
+        "asin": "B005HLOMWY",
+        "title": "Citre Shine Fresh Fusion Revitalizing Conditioner Normal Hair 13.5 Ounce (Pack of 6)",
+        "score": 0.9300839304924011
+      },
+      {
+        "asin": "B01GQLJ7HI",
+        "title": "Pantene Pro-V Damage Repair Cleansing Conditioner, 16.9 Ounce, (Pack of 3)",
+        "score": 0.9251176118850708
+      },
+      {
+        "asin": "B01MXLAV65",
+        "title": "Ogx Conditioner Orchid Oil Fade Defying 13 Ounce (385ml) (2 Pack)",
+        "score": 0.9175950884819031
+      },
+      {
+        "asin": "B0785T2X3D",
+        "title": "Sally Hansen Big Shiny Top Coat 0.4 Ounce (12ml) (2 Pack)",
+        "score": 0.8967841863632202
+      },
+      {
+        "asin": "B01BN6INBM",
+        "title": "John Frieda Brilliant Brunette Treatment Visibly Deeper 4 Ounce (118ml) (2 Pack)",
+        "score": 0.8866276144981384
+      },
+      {
+        "asin": "B08M4C9FXM",
+        "title": "Bantu Yellow-Out Conditioner (Pack of 4)",
+        "score": 0.8671518564224243
+      },
+      {
+        "asin": "B00MX4597U",
+        "title": "Aussie Moist Shampoo and Conditioner, 13.5 Ounce Each, Plus 3 Minute Miracle Moist, 8 Ounce",
+        "score": 0.8604951500892639
+      },
+      {
+        "asin": "B088GT3Q7Z",
+        "title": "Dabur Vatika naturals Wild Cactus Hair Conditioner 400ml (pack of 3)",
+        "score": 0.8538049459457397
+      },
+      {
+        "asin": "B00NFUKTTY",
+        "title": "Vigorol Mousse Relaxed Hair 12 Ounce (354ml) (2 Pack)",
+        "score": 0.8449474573135376
+      },
+      {
+        "asin": "B01MTDAGAQ",
+        "title": "Maui Moisture Conditioner Shea Butter 13 Ounce (Hydrate) (385ml) (Pack of 2)",
+        "score": 0.841838538646698
+      }
+    ]
+  },
+  "B076WQZGPM": {
+    "tfidf_faiss": [
+      {
+        "asin": "B076WP4F1V",
+        "title": "Yes to Tomatoes Daily Clarifying Cleanser (Pack of 2) with Aloe Leaf Extract, Tomato Extract, and Wa",
+        "score": 0.7704627513885498
+      },
+      {
+        "asin": "B07Z29R2P7",
+        "title": "Nelly Devuyst Organic Bio Tense Extract 1 fl oz",
+        "score": 0.6429577469825745
+      },
+      {
+        "asin": "B076CWNJHD",
+        "title": "ShiKai Color Reflect Platinum Shampoo (Pack of 2) with Blue Malva Flower Extract, Sunflower Extract,",
+        "score": 0.6060129404067993
+      },
+      {
+        "asin": "B0743NNJL1",
+        "title": "Biosoma Baby Hypoalergenic Shampoo with Chamomile Natural Extract, 8 Fl Oz",
+        "score": 0.5825456380844116
+      },
+      {
+        "asin": "B007FHYPS4",
+        "title": "Royal Extract Essentials Set",
+        "score": 0.556851863861084
+      },
+      {
+        "asin": "B073QR1BHH",
+        "title": "Saborino Night Beauty Face Mask, 28 Sheets, 269 ml",
+        "score": 0.48920708894729614
+      },
+      {
+        "asin": "B078J18HQQ",
+        "title": "BOTANICAL THERAPY Soothing Baby Body Wash with Calendula, Witch Hazel Extract and Other Natural Bota",
+        "score": 0.47993868589401245
+      },
+      {
+        "asin": "B01MSK3OIK",
+        "title": "Natural Korean Hypo-Allergenic Marine 8 Seaweed Aqua Cream With Algae Extract, Marine Collage, Lamin",
+        "score": 0.47562408447265625
+      },
+      {
+        "asin": "B08KTCH8PL",
+        "title": "Carbmaster Milk Bites Natural Flavor, Made Of Plant Extract, Eat Better For Less, 60 Sachets/pack (Y",
+        "score": 0.4730638265609741
+      },
+      {
+        "asin": "B07GTQVVDJ",
+        "title": "Osea Ocean Cleanser .6 oz",
+        "score": 0.4538342356681824
+      }
+    ],
+    "bert_faiss": [
+      {
+        "asin": "B076WP4F1V",
+        "title": "Yes to Tomatoes Daily Clarifying Cleanser (Pack of 2) with Aloe Leaf Extract, Tomato Extract, and Wa",
+        "score": 0.6804155111312866
+      },
+      {
+        "asin": "B01MT21EMZ",
+        "title": "Kaia Naturals Takesumi Detox Travel Size Lime Mint Deodrant With Bamboo, Charcoal, Aloe Leaf Juice, ",
+        "score": 0.47928106784820557
+      },
+      {
+        "asin": "B07YYKZPPX",
+        "title": "Shea Moisture African Water Mint & Ginger Detox Hand & Body Scrub, 12 Ounce",
+        "score": 0.43254923820495605
+      },
+      {
+        "asin": "B08LQZSNBN",
+        "title": "Usmooth Revive Cleanse, 10 Ounce",
+        "score": 0.4103021025657654
+      },
+      {
+        "asin": "B00GGTFAS6",
+        "title": "III Sisters of Nature Cleansing Co-Wash with Avocado Extract 10oz",
+        "score": 0.3895465135574341
+      },
+      {
+        "asin": "B07BKVZ3M7",
+        "title": "Bath and Body Works 2 Pack Peach Bellini Anti-Bacterial Hand Sanitizer 7.6 Oz / 225 ml",
+        "score": 0.37652701139450073
+      },
+      {
+        "asin": "B00RMM6OJU",
+        "title": "Iwotou Teeth Whitening Charcoal Powder Natural Activated Charcoal Powder Teeth Whitener of Organic C",
+        "score": 0.37511032819747925
+      },
+      {
+        "asin": "B007K9Y1BI",
+        "title": "Aveda Botanical Kinetics Purifying Gel Facial Cleanser. Lot of 18 Bottles. Total of 18oz",
+        "score": 0.371945858001709
+      },
+      {
+        "asin": "B06W2K5ZFX",
+        "title": "ORGANIC Coconut Extracts Luxury SALT Scrub",
+        "score": 0.3696659207344055
+      },
+      {
+        "asin": "B08FCV18Q4",
+        "title": "Face Scrub by Disco for Men, Exfoliating and Cleansing, Removes Dead Skin and Build Up, All Natural ",
+        "score": 0.3632398843765259
+      }
+    ],
+    "metadata_annoy": [
+      {
+        "asin": "B01AY5GS7E",
+        "title": "Gucci by Gucci eau de toilette",
+        "score": 0.0
+      },
+      {
+        "asin": "6075085491",
+        "title": "10 x French, Chevron & Teardrop Nail Tip Guides Stickers (Pack of 10) NEW Style",
+        "score": 0.0
+      },
+      {
+        "asin": "B071WNLNBB",
+        "title": "Kani Botanicals - Organic Moon Milk Shimmering Jasmine Body Oil (2 oz / 60 ml)",
+        "score": 0.0
+      },
+      {
+        "asin": "B00U6TD5RA",
+        "title": "Bath & Body Works Deep Cleansing Hand Soap White Lily & Lime 8oz",
+        "score": 0.0
+      },
+      {
+        "asin": "B07CMJKZLW",
+        "title": "Marc Jacobs Beauty Dew Drops Coconut Gel Highlighter \u2013 Coconut Fantasy Collection",
+        "score": 0.0
+      },
+      {
+        "asin": "B07RYMN8YH",
+        "title": "JD Jeffrey Dame Vanille Farfelue Eau de Parfum 2 ml/0.07 fl oz",
+        "score": 0.0007308600470423698
+      },
+      {
+        "asin": "B07KRSN2J1",
+        "title": "AISI QUEENS Long Curly Wig Blonde Synthetic Natural Long Wavy Wig with Bangs Heat Resistant Fiber fo",
+        "score": 0.0007308600470423698
+      },
+      {
+        "asin": "B00S65QYFG",
+        "title": "ALICE Luxury Manicure Pedicure Set Nail Scissors Nail Clippers Kit 12pcs with Leather Case",
+        "score": 0.0007308600470423698
+      },
+      {
+        "asin": "B018WKWCYG",
+        "title": "J Cat Blinkle Shimmer Eyeshadow BSE108 Black Diamond by J Cat",
+        "score": 0.0007308600470423698
+      },
+      {
+        "asin": "B071G7FLD1",
+        "title": "Axe Deodorant Stick Phoenix 3 oz (Pack of 9)",
+        "score": 0.0007308600470423698
+      }
+    ],
+    "hybrid_faiss": [
+      {
+        "asin": "B076WP4F1V",
+        "title": "Yes to Tomatoes Daily Clarifying Cleanser (Pack of 2) with Aloe Leaf Extract, Tomato Extract, and Wa",
+        "score": 0.8927755355834961
+      },
+      {
+        "asin": "B01FYPDMK0",
+        "title": "Kuumba Made Vanilla Bean Fragrance 1/8 fl oz",
+        "score": 0.8151265382766724
+      },
+      {
+        "asin": "B07WF4VS9C",
+        "title": "Throne Foam Waterless Cleansing Foam: No Rinse Body Wash & Wiping Foam - Foaming Shower in a Bottle ",
+        "score": 0.814951479434967
+      },
+      {
+        "asin": "B00759LVR0",
+        "title": "J. Leblanc French Pistachio Oil - 8 fl.oz. - Huile de Pistache",
+        "score": 0.8120231628417969
+      },
+      {
+        "asin": "B01C6XTBNK",
+        "title": "NUDE Skincare Detox GENTLE Brightening Fizzy Powder Wash",
+        "score": 0.8115147352218628
+      },
+      {
+        "asin": "B07HDFV5RP",
+        "title": "Baby Michelle Cologne 2 FL OZ",
+        "score": 0.810375988483429
+      },
+      {
+        "asin": "B07BT1Q1FD",
+        "title": "KOL Charcoal infused gloves",
+        "score": 0.8092795014381409
+      },
+      {
+        "asin": "B08Q7QWYJH",
+        "title": "MARY KAY TIMEWISE REPAIR REVEALING RADIANCE FACIAL PEELPEELING FACIAL 1.7 FL. OZ GEL FACIAL EFECTO P",
+        "score": 0.8076541423797607
+      },
+      {
+        "asin": "B01NB16J2O",
+        "title": "Plant Therapy 100% Pure Premium Unscented Castile Soap 16 fl. oz",
+        "score": 0.8067548274993896
+      },
+      {
+        "asin": "B07NJ7VXBM",
+        "title": "Golden Jojoba Oil by Noble Roots, Cold Pressed Natural Moisturizer for Conditioning Face Skin Hair S",
+        "score": 0.8049236536026001
+      }
+    ]
+  },
+  "B000B658RI": {
+    "tfidf_faiss": [
+      {
+        "asin": "B01MRK8OAU",
+        "title": "Petitfee 98% Hydro Gel Collagen & CoQ10 Hydrogel Eye Patch 60count",
+        "score": 0.6776242256164551
+      },
+      {
+        "asin": "B01G09YUSC",
+        "title": "Farm Stay Black Pearl Gold Hydrogel Eye Patch 90g,Elastic,Moist,",
+        "score": 0.651377260684967
+      },
+      {
+        "asin": "B07VNSNBMG",
+        "title": "Duevin 80Pcs Anti-Wrinkle Deeping Moisturizing Under Eye Patch\uff0cReduce Dark Circles Eye Mask Gel Patc",
+        "score": 0.6250987648963928
+      },
+      {
+        "asin": "B01MQZZTTX",
+        "title": "Lohasys Snail Active Hydro Gel Eye Patch (100g/3.5oz)",
+        "score": 0.6092275381088257
+      },
+      {
+        "asin": "B078XJNK2Z",
+        "title": "5 Pairs Crystal Collagen Eye Mask - Reduce Eye Wrinkles Bags & Dark Circles Under Eye,Eye Gel Patch ",
+        "score": 0.5923418998718262
+      },
+      {
+        "asin": "B07JVPF7YZ",
+        "title": "FreshMe 24K Gold Collagen Under Eye Patch for Women and Men - 20 Pairs Gel Eye Treatment Mask for Ey",
+        "score": 0.5007805824279785
+      },
+      {
+        "asin": "B07D4PTQV1",
+        "title": "Sonia Kashuk Longwear Eye Definer Pencil (Black Onyx) x 2",
+        "score": 0.4729035794734955
+      },
+      {
+        "asin": "B078MW6W48",
+        "title": "OLIVE YOUNG 1 Pack Care Plus Spot Patch 84ea (10mm 60ea + 12mm 24ea) - Acne Spot Pimple Absorbing Co",
+        "score": 0.4662095308303833
+      },
+      {
+        "asin": "B0777QHNLR",
+        "title": "OxygenCeuticals 360 Eye Perfection Duo, Advanced Anti-Aging Eye Treatment Set, 2 Products, Eye Cream",
+        "score": 0.43581297993659973
+      },
+      {
+        "asin": "B0168CD7US",
+        "title": "Sisley Phyto-Eye Twist Marin 6 Outlet",
+        "score": 0.4268049895763397
+      }
+    ],
+    "bert_faiss": [
+      {
+        "asin": "B073TWLKW5",
+        "title": "3 Pack Flexible Velvet Wig Grip Scarf Head Hair Band Adjustable Fastern (Black+Brown+Beige)",
+        "score": 0.5965673923492432
+      },
+      {
+        "asin": "B07F7TJFWH",
+        "title": "Carede Women and Girls Non slip off Cotton Lycra Tie Dye Stretch Moisture Wicking Elastic Sports Ban",
+        "score": 0.57623291015625
+      },
+      {
+        "asin": "B01IAEBWWM",
+        "title": "New York Color Liquid Eyeliner, Extreme Black 0.15 oz (Pack of 8)",
+        "score": 0.565730631351471
+      },
+      {
+        "asin": "B01FLGNSK6",
+        "title": "New York Color Liquid Eyeliner, Black [887A] 0.17 oz (Pack of 4)",
+        "score": 0.5386908054351807
+      },
+      {
+        "asin": "B07Q3NJZ5K",
+        "title": "Joah Eye Candy Auto Eyeliner - JEL03 Black Brown 0.01 oz (Pack of 1)",
+        "score": 0.5224262475967407
+      },
+      {
+        "asin": "B075QP6S7H",
+        "title": "e.l.f. Eyebrow Stencil Kit, 3 Pack",
+        "score": 0.5216687321662903
+      },
+      {
+        "asin": "B08VWXKQKL",
+        "title": "3 Pack Lace Face_Mask Ladies Single Layer Black Embroidery Lace Mesh Thin Breathable Mouth_Covers wi",
+        "score": 0.5150260925292969
+      },
+      {
+        "asin": "B074NBZ1TQ",
+        "title": "Sun Protection Nose Patch (Beige, White)",
+        "score": 0.5080283880233765
+      },
+      {
+        "asin": "B00I6Q39TO",
+        "title": "(3 Pack) NYC Cover Stick - Medium",
+        "score": 0.5012909770011902
+      },
+      {
+        "asin": "B088JX34F2",
+        "title": "3 Pack Hair Cutting Cape Barber Cape for Men and Kids with Hook and Loop Fastener Black",
+        "score": 0.49957403540611267
+      }
+    ],
+    "metadata_annoy": [
+      {
+        "asin": "B09GBF17CW",
+        "title": "QoQlz Shampoo Brush Shampoo Massager Brush Scalp Exfoliator for Dandruff Removal- Scalp Brush Head S",
+        "score": 0.0
+      },
+      {
+        "asin": "B07P7TZSFS",
+        "title": "bioClarity Travel-Size Skincare Set (4 Piece) | 100% Clean, Vegan Ingredients | Incl. 3-Step Essenti",
+        "score": 0.0006974133430048823
+      },
+      {
+        "asin": "B07X9L2XZT",
+        "title": "Tongcloud 12 pcs Multi-Purpose Cotton Canvas Zipper Bags Invoice Bill Bag Pen Pencil Cosmetic Makeup",
+        "score": 0.0007757194689475
+      },
+      {
+        "asin": "B07TT58BGL",
+        "title": "KICOSY 2PCS Headbands for Women, Knotted Wide Headband, Yoga Hair Band Fashion Elastic Hair Accessor",
+        "score": 0.0007757194689475
+      },
+      {
+        "asin": "B074CYY2KQ",
+        "title": "ScivoKaval 200 Pieces Disposable Lip Brush Eyeliner Brush Eyebrow Eyelash Mascara Brush Makeup Brush",
+        "score": 0.0015086284838616848
+      },
+      {
+        "asin": "B08DR7GFBL",
+        "title": "Makeup Cotton Pads&lint Free-Cotton Rounds, Premium Stitched Cotton Pads -3 Pack(360-Pcs)",
+        "score": 0.002270334865897894
+      },
+      {
+        "asin": "B07G5RVT49",
+        "title": "Waterproof Liquid Eyeliner Green and Black Pen 2 in 1",
+        "score": 0.002270334865897894
+      },
+      {
+        "asin": "B08BRXGFLD",
+        "title": "6 Sets Acrylic Nail Display Stand Nail Tip Practice Display Holder Magnetic Nail Practice Stand Fing",
+        "score": 0.0030392780900001526
+      },
+      {
+        "asin": "B08SVY7FWZ",
+        "title": "40PCS Upgrade Disposable Barber Capes, Iusmnur Disposable Shampoo Capes Waterproof Hair Dye Coloring",
+        "score": 0.0030392780900001526
+      },
+      {
+        "asin": "B07GJ7W9LR",
+        "title": "Lakkio 5 Pairs Pure Mink Hair Eyelashes 3D Eyelashes Extension Natural Dense False Eyelashes Handmad",
+        "score": 0.0030392780900001526
+      }
+    ],
+    "hybrid_faiss": [
+      {
+        "asin": "B07BDRRDDW",
+        "title": "Sonia Kashuk Longwear Eye Definer Pencil - Olive 05 (2 Pack)",
+        "score": 0.8762046694755554
+      },
+      {
+        "asin": "B01MRK8OAU",
+        "title": "Petitfee 98% Hydro Gel Collagen & CoQ10 Hydrogel Eye Patch 60count",
+        "score": 0.8552058935165405
+      },
+      {
+        "asin": "B00B4VK1BW",
+        "title": "Avon Diamonds Eye Liner (Golden Diamond)",
+        "score": 0.8517747521400452
+      },
+      {
+        "asin": "B07D4PTQV1",
+        "title": "Sonia Kashuk Longwear Eye Definer Pencil (Black Onyx) x 2",
+        "score": 0.8388951420783997
+      },
+      {
+        "asin": "B01MQZZTTX",
+        "title": "Lohasys Snail Active Hydro Gel Eye Patch (100g/3.5oz)",
+        "score": 0.8388418555259705
+      },
+      {
+        "asin": "B078XJNK2Z",
+        "title": "5 Pairs Crystal Collagen Eye Mask - Reduce Eye Wrinkles Bags & Dark Circles Under Eye,Eye Gel Patch ",
+        "score": 0.8292279243469238
+      },
+      {
+        "asin": "B073TWLKW5",
+        "title": "3 Pack Flexible Velvet Wig Grip Scarf Head Hair Band Adjustable Fastern (Black+Brown+Beige)",
+        "score": 0.8231240510940552
+      },
+      {
+        "asin": "B01N9XNC9J",
+        "title": "Replacement Nose Pads for Polarized Sunglasses By EYE LOVE, Made w/ Military-Grade Unbreakable Metal",
+        "score": 0.8188785314559937
+      },
+      {
+        "asin": "B00V94Y21E",
+        "title": "Replenish Eye Treatment Cream 0.5oz by David Douglas",
+        "score": 0.8178372383117676
+      },
+      {
+        "asin": "B00GMP49HM",
+        "title": "Creme Of Nature Color Mens Natural Black (3 Pack)",
+        "score": 0.8054307699203491
+      }
+    ]
+  },
+  "B088FKY3VD": {
+    "tfidf_faiss": [
+      {
+        "asin": "B08QVQKQNM",
+        "title": "Makeup Peel-off Eyebrow Gel Tattoo Waterproof Long Lasting Eyebrow Color Beauty . (Gray-black)",
+        "score": 0.7828953862190247
+      },
+      {
+        "asin": "B07CXFGKZD",
+        "title": "[RIRE] Fork Tattoo Eyebrow Lasts up to 8 days! Long Lasting Waterproof Tattoo Eyebrow (02 Dark Brown",
+        "score": 0.7735954523086548
+      },
+      {
+        "asin": "B07FVRXDZW",
+        "title": "Tattoo Eyebrow Pen with Four Tips Long-lasting Chestnut Waterproof Liquid Eyebrow Pencil for Eyes Ma",
+        "score": 0.7504324316978455
+      },
+      {
+        "asin": "B07M8V162P",
+        "title": "2PCS Eyebrow Tattoo Pen\uff08Dark Brown\uff09, NAQIER Eyebrow Pencil Natural Long Lasting Tattoo Eyebrow Water",
+        "score": 0.7380892038345337
+      },
+      {
+        "asin": "B07DNQZVL2",
+        "title": "Pawaca Eyebrow Gel - Lasting Eyebrow Gel for Waterproof Eyebrow Makeup, Duo Eyebrow Brush & Create N",
+        "score": 0.7209587097167969
+      },
+      {
+        "asin": "B087NMGGRV",
+        "title": "2 Pcs Eyebrow Soap Kit 4D Brows Styling Soap Long Lasting Waterproof Eyebrow Styling Gel Eyebrow Mak",
+        "score": 0.7203404307365417
+      },
+      {
+        "asin": "B0B212ZSWM",
+        "title": "LOKNGXU Eyebrow Pencil to Modify Eyebrows Easy to Color Waterproof Long-Lasting Non-Dizzy Makeup wit",
+        "score": 0.7114402055740356
+      },
+      {
+        "asin": "B00T3H1U82",
+        "title": "Trim Eyebrow Shapers",
+        "score": 0.7062994241714478
+      },
+      {
+        "asin": "B09BNNK3N3",
+        "title": "Adjustable Eyebrow Stamp Shaping Kit,Brow Definer Powder Pomade Stamp Makeup with 10 Reusable Eyebro",
+        "score": 0.6624195575714111
+      },
+      {
+        "asin": "B09W15H84K",
+        "title": "QAOVDS Eyebrow Stamp Stencil Kit, 1 Step Eyebrow Stamping & 10 Reusable Eyebrow Stencils for Perfect",
+        "score": 0.6529743075370789
+      }
+    ],
+    "bert_faiss": [
+      {
+        "asin": "B0B8RDMK5F",
+        "title": "Eyebrow Tattoo Pencil, Eyeliner Pencil with Eye Makeup Long Lasting Waterproof and Smudgeproof Natur",
+        "score": 0.7740271687507629
+      },
+      {
+        "asin": "B07T18DN8G",
+        "title": "3 tattoo eyebrow pencils, waterproof microfiber eyebrow tattoo pencil with micro fork tip applicator",
+        "score": 0.7617796659469604
+      },
+      {
+        "asin": "B08QVQKQNM",
+        "title": "Makeup Peel-off Eyebrow Gel Tattoo Waterproof Long Lasting Eyebrow Color Beauty . (Gray-black)",
+        "score": 0.7567796111106873
+      },
+      {
+        "asin": "B093Y5FQH5",
+        "title": "Eyebrow Tattoo Pen, Waterproof brow Pencil, Microblading Brow Pen, Natural Looking, Long Lasting (4#",
+        "score": 0.7497767210006714
+      },
+      {
+        "asin": "B093XXMVS8",
+        "title": "Eyebrow Tattoo Pen, Waterproof brow Pencil, Microblading Brow Pen, Natural Looking, Long Lasting (1#",
+        "score": 0.7432243227958679
+      },
+      {
+        "asin": "B08QTT5RKJ",
+        "title": "Microblading Eyebrow Pen, Waterproof brow Pencil, Eyebrow Tattoo Pen, Natural Looking, Long Lasting ",
+        "score": 0.74181067943573
+      },
+      {
+        "asin": "B09K3X9MBH",
+        "title": "Eyebrow Stamp Stencil Kit, Waterproof Eyebrow Stamp Kit with 10 Reusable Eyebrow Stencils, 2 Eyebrow",
+        "score": 0.740206241607666
+      },
+      {
+        "asin": "B09LYK4GSB",
+        "title": "Eyebrow Stamp Stencil Kit Waterproof Eyebrow Stamp And Shaping Kit Perfect Eyebrows Stamp Kit(Natura",
+        "score": 0.7380633354187012
+      },
+      {
+        "asin": "B0BKJJXDM4",
+        "title": "Eyebrow Stamp Stencil Kit for Eyebrows, Brow Stamp Trio Kit with Waterproof Eyebrow Pencil, Eyebrow ",
+        "score": 0.7355781197547913
+      },
+      {
+        "asin": "B07VT3JKBX",
+        "title": "Micro Ink Brow Pen,Eyebrow Tattoo Pen Microblading Eyebrow Pen Tat Brow Microblade Eyebrow Pen Water",
+        "score": 0.7338401675224304
+      }
+    ],
+    "metadata_annoy": [
+      {
+        "asin": "B083511LPW",
+        "title": "DKAF 12 Pieces Hair Braiding Tool, French Centipede Braiders S and O shape Fishbone Ponytail Twist D",
+        "score": 0.0008675665012560785
+      },
+      {
+        "asin": "B099RRLL72",
+        "title": "One Step Eyebrow Stamp Shaping Kit\uff0cProfessional Brow Powder Stamp Makeup with 24 Reusable Eyebrow St",
+        "score": 0.019396714866161346
+      },
+      {
+        "asin": "B07QD4NS2H",
+        "title": "Hair Chalk - 6 Pcs Temporary Hair Chalk Comb Hair Dye For Halloween Celebration Make Up Party Cospla",
+        "score": 0.020513111725449562
+      },
+      {
+        "asin": "B01M1CJSZH",
+        "title": "Majestic Pure Anti Aging Serum, Antioxidant Blue Marine Algae Caviar Anti Wrinkle Serum, Skin Rejuve",
+        "score": 0.021595947444438934
+      },
+      {
+        "asin": "B07D2DJGT9",
+        "title": "Pads made from silicone, reusable overnight and good as neck wrinkles remover",
+        "score": 0.025366583839058876
+      },
+      {
+        "asin": "B07KR78KZ1",
+        "title": "Emmor Long Brown Human Hair Wigs for Women, Blend with Healthy Kanekalon Fiber Natural Curly Wig Wit",
+        "score": 0.033497050404548645
+      },
+      {
+        "asin": "B09BH5X2HC",
+        "title": "RAW SUGAR HAND SANITIZER COCONUT AND LEMON VERBENA",
+        "score": 0.03824684023857117
+      },
+      {
+        "asin": "B0986P2GSR",
+        "title": "Beauty Glazed 13 in 1 One Step Eyebrow Stamp Shaping Kit The Definer Powder Makeup 10 Reusable Stenc",
+        "score": 0.03837171196937561
+      },
+      {
+        "asin": "B088F9FQLX",
+        "title": "MainBasics Headband with Buttons for Face Masks (Black)",
+        "score": 0.03896882012486458
+      },
+      {
+        "asin": "B019EVRO7W",
+        "title": "U Tip Dark Golden Blonde Highlight Platinum Blonde Fusion Extensions Human Hair 14inch 50g 1g/s",
+        "score": 0.03964018076658249
+      }
+    ],
+    "hybrid_faiss": [
+      {
+        "asin": "B08QVQKQNM",
+        "title": "Makeup Peel-off Eyebrow Gel Tattoo Waterproof Long Lasting Eyebrow Color Beauty . (Gray-black)",
+        "score": 0.9076487421989441
+      },
+      {
+        "asin": "B07FVRXDZW",
+        "title": "Tattoo Eyebrow Pen with Four Tips Long-lasting Chestnut Waterproof Liquid Eyebrow Pencil for Eyes Ma",
+        "score": 0.8968933820724487
+      },
+      {
+        "asin": "B087NMGGRV",
+        "title": "2 Pcs Eyebrow Soap Kit 4D Brows Styling Soap Long Lasting Waterproof Eyebrow Styling Gel Eyebrow Mak",
+        "score": 0.8865764737129211
+      },
+      {
+        "asin": "B07CXFGKZD",
+        "title": "[RIRE] Fork Tattoo Eyebrow Lasts up to 8 days! Long Lasting Waterproof Tattoo Eyebrow (02 Dark Brown",
+        "score": 0.8810858130455017
+      },
+      {
+        "asin": "B07M8V162P",
+        "title": "2PCS Eyebrow Tattoo Pen\uff08Dark Brown\uff09, NAQIER Eyebrow Pencil Natural Long Lasting Tattoo Eyebrow Water",
+        "score": 0.8768861889839172
+      },
+      {
+        "asin": "B09BNNK3N3",
+        "title": "Adjustable Eyebrow Stamp Shaping Kit,Brow Definer Powder Pomade Stamp Makeup with 10 Reusable Eyebro",
+        "score": 0.8763474822044373
+      },
+      {
+        "asin": "B00ZHYZ7VQ",
+        "title": "FUNOC Eyebrow Smooth Waterproof Cosmetic Beauty Makeup Eyebrow Pen Pencil With Brush",
+        "score": 0.8715699911117554
+      },
+      {
+        "asin": "B099RRLL72",
+        "title": "One Step Eyebrow Stamp Shaping Kit\uff0cProfessional Brow Powder Stamp Makeup with 24 Reusable Eyebrow St",
+        "score": 0.8683330416679382
+      },
+      {
+        "asin": "B08QTT5RKJ",
+        "title": "Microblading Eyebrow Pen, Waterproof brow Pencil, Eyebrow Tattoo Pen, Natural Looking, Long Lasting ",
+        "score": 0.8671286702156067
+      },
+      {
+        "asin": "B099X7YWPX",
+        "title": "Eyebrow Stamp Shaping Kit, 1 Step Brow Powder Stamp with 10 Reusable Eyebrow Stencils, 1 Brow Razor,",
+        "score": 0.8649032711982727
+      }
+    ]
+  },
+  "B07NGFDN6G": {
+    "tfidf_faiss": [
+      {
+        "asin": "B00KIYTIDS",
+        "title": "Australian made French milled Orange Squeeze guest soaps (36 bars)",
+        "score": 0.4851659834384918
+      },
+      {
+        "asin": "B07Y2BTSS2",
+        "title": "Pre de Provence French Quad-Milled Soap - 2 Bars, 250g Each (Juicy Pomegranate)",
+        "score": 0.4375991225242615
+      },
+      {
+        "asin": "B085HBB4DD",
+        "title": "Nail Stamping Plates Kit with 20 Stainless Steel Nail Plates and Bag",
+        "score": 0.4194004535675049
+      },
+      {
+        "asin": "B008RRDJPG",
+        "title": "Joe's USA - Gym Bag Duffle Workout Sport Bag - Gold",
+        "score": 0.4156785011291504
+      },
+      {
+        "asin": "B017PGBVZY",
+        "title": "PANIER DES SENS Provence Citrus Vegetable Soap - 2 Bars, 5.3oz. Each",
+        "score": 0.41140490770339966
+      },
+      {
+        "asin": "B01447J06Y",
+        "title": "Z ZTATO 20 Pcs 18RL Disposable Sterilize Tattoo Needles Tube Grip Tip Tube Grip Tip 18RL 18RT",
+        "score": 0.40334761142730713
+      },
+      {
+        "asin": "B07Q4YCBWD",
+        "title": "Best Mom Ever French Milled Luxury Soap Set of 3 Bars (6.35oz)",
+        "score": 0.39070653915405273
+      },
+      {
+        "asin": "B00LQDC4UE",
+        "title": "Chopmall (TM) Black Leather Mens Bracelet Bangle Stainless Steel Clasp - 8.5\"",
+        "score": 0.39060062170028687
+      },
+      {
+        "asin": "B000FZ003C",
+        "title": "MIXED SCENTS: Case of 18 bars Pre de Provence 150g - Customize with your Choice of Scents",
+        "score": 0.37942567467689514
+      },
+      {
+        "asin": "B0041MJMGQ",
+        "title": "Nippes Stainless Steel Straight End Tweezers - Precision Pointed Slant - Quality Handmade in Solinge",
+        "score": 0.37477800250053406
+      }
+    ],
+    "bert_faiss": [
+      {
+        "asin": "B08C4PZFFN",
+        "title": "Aurora Professional Disposable Tattoo Needle Cartridge #12 Standard Round Liner (20 Pack) (1203 RL)",
+        "score": 0.46314188838005066
+      },
+      {
+        "asin": "B01447J06Y",
+        "title": "Z ZTATO 20 Pcs 18RL Disposable Sterilize Tattoo Needles Tube Grip Tip Tube Grip Tip 18RL 18RT",
+        "score": 0.44687503576278687
+      },
+      {
+        "asin": "B071FT6S51",
+        "title": "Nail Art Stamp Stamping Templates Stamping Tool Set 2.8cm Clear Silicone Stamper Scraper Stamping Pl",
+        "score": 0.43427008390426636
+      },
+      {
+        "asin": "B0998CMTQZ",
+        "title": "Eyebrow Stamp and Stencil Kit, 14 in 1 One Step Eyebrow Stamp Shaping Kit Long Lasting Brow Powder S",
+        "score": 0.43284159898757935
+      },
+      {
+        "asin": "B09C4JV3XD",
+        "title": "Eyebrow Stamp Stencil Kit - Brow Pomade Stamp Shaping Kit Eyebrow Definer with 10 Styles Stencil /2 ",
+        "score": 0.4299503564834595
+      },
+      {
+        "asin": "B01M05XEHC",
+        "title": "RiteAid Daylogic for men - (Fits Gillette Mach3 Handles) 3-Blade cartridge refills 5 cartridges per ",
+        "score": 0.4295782446861267
+      },
+      {
+        "asin": "B01GZXN3TK",
+        "title": "CHENGYIDA 50pcs/lot U-Shape 14 pin Microblading Needle Eyebrow Tattoo Blade For Permanent Makeup Man",
+        "score": 0.4208880066871643
+      },
+      {
+        "asin": "B09B22DLX6",
+        "title": "Eyebrow Stamp Stencil Kit- 25 Pcs Brow Powder Stamp & Eyebrow Stencils Reusable Makeup Tools For Wom",
+        "score": 0.4129328727722168
+      },
+      {
+        "asin": "B073PY3CFG",
+        "title": "5 x Sets Target Nylon Dart Stems Pro Grip Short Orange",
+        "score": 0.41136544942855835
+      },
+      {
+        "asin": "B00A75AF8U",
+        "title": "2 x Black Plastic French Twist Hair Styling Maker Clip Comb Tools",
+        "score": 0.4112987220287323
+      }
+    ],
+    "metadata_annoy": [
+      {
+        "asin": "B00FG0SX9O",
+        "title": "Josie Maran Escape To Morocco Holiday Hair & Body Beautifiers",
+        "score": 0.0005892638582736254
+      },
+      {
+        "asin": "B01MTPJF9G",
+        "title": "Bobbi Boss Crochet Braid_Bomba Faux Locs Soul 12\" (2)",
+        "score": 0.0005892638582736254
+      },
+      {
+        "asin": "B0031KI7XI",
+        "title": "Optimum Omega-3 Age-Control Night Cream with Peptides and Vitamin F 50ml. Made in Italy.",
+        "score": 0.0006453388486988842
+      },
+      {
+        "asin": "B010QXBXFG",
+        "title": "Anti Snoring Devices, Comfortable Snoring Solution for Better Sleep Snore Stopper for Men Women",
+        "score": 0.0010593242477625608
+      },
+      {
+        "asin": "B07D5JYH5S",
+        "title": "Bath oil beads for woman | Heart Shaped Bath Pearls | Vintage Bath Beads | Moisturizing Bath Oil dro",
+        "score": 0.0015685262624174356
+      },
+      {
+        "asin": "B00TIHA0IS",
+        "title": "Cabotine Floralie By Parfums Gres Eau De Toilette Spray 1.7 Oz",
+        "score": 0.0015709794824942946
+      },
+      {
+        "asin": "B01CQ1KPCS",
+        "title": "Yves Rocher Monoi de Tahiti Lagoon Hair and Body Wash, 200 ml./ 6.7 fl.oz.",
+        "score": 0.003649296937510371
+      },
+      {
+        "asin": "B0779BX3WM",
+        "title": "Caboodles Pretty in Petite, Iridescent",
+        "score": 0.003649296937510371
+      },
+      {
+        "asin": "B07LHJK8D6",
+        "title": "LYRAE Bow Scrunchies Bowknot Scarf Ponytail Holder Elastic Hair Ties Ropes Colorful Design For Women",
+        "score": 0.005214762408286333
+      },
+      {
+        "asin": "B08JVK8B58",
+        "title": "3D Face Massager V Face Lift Tool Facial Care Massager Roller Firming Beauty Body Face Massage Massa",
+        "score": 0.005746667739003897
+      }
+    ],
+    "hybrid_faiss": [
+      {
+        "asin": "B00BUS8TTK",
+        "title": "Goody Womens Classic 3\" Mock Tort Staytight Barrettes - 4 Pc - 2 Packs",
+        "score": 0.8901879191398621
+      },
+      {
+        "asin": "B0012CFBXG",
+        "title": "KEXMY Wingtote LLC Deluxe Truck Tote Blue LST XXL WGT411 Gas Car/Truck Option Parts",
+        "score": 0.8889880180358887
+      },
+      {
+        "asin": "B00LQDC4UE",
+        "title": "Chopmall (TM) Black Leather Mens Bracelet Bangle Stainless Steel Clasp - 8.5\"",
+        "score": 0.8885899782180786
+      },
+      {
+        "asin": "B00NNLWGXW",
+        "title": "10pcs Woman Clear Acrylic Nose Bone Studs Rings Retainers Body Piercing Jewelry",
+        "score": 0.8863969445228577
+      },
+      {
+        "asin": "B00BLWQAYQ",
+        "title": "Orihiro Placenta Collagen Type Bag 180g",
+        "score": 0.8856034874916077
+      },
+      {
+        "asin": "B008RRDJPG",
+        "title": "Joe's USA - Gym Bag Duffle Workout Sport Bag - Gold",
+        "score": 0.8833219408988953
+      },
+      {
+        "asin": "B01AHJY4YQ",
+        "title": "Mosher Salon Tools 6.0 Inch Long Ergonomic Handle Scissors",
+        "score": 0.8825340270996094
+      },
+      {
+        "asin": "B001G7PMRW",
+        "title": "Gillette Super Stainless Super Inoxydable Blades, 10-Count Packages (Pack of 3)",
+        "score": 0.8821685314178467
+      },
+      {
+        "asin": "B00ZI6S2CO",
+        "title": "Molecule 02 (typ) - Ambroxan (100ml)",
+        "score": 0.8788350820541382
+      },
+      {
+        "asin": "B00P1M9TQS",
+        "title": "Silver Mini 3mm November Birthstone Ear Piercing Earrings Hypoallergenic Studex System 75",
+        "score": 0.8787268996238708
+      }
+    ]
+  }
+}
