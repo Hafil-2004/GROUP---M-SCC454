@@ -8,10 +8,10 @@
 A comprehensive data analysis platform implementing multi-database architectures, similarity computation, clustering analysis, and recommendation systems for the Amazon Reviews 2023 dataset (All Beauty category).
 
 ## 👥 Team
-- HAFIL ABDUL KADHAR
+- Hafil Abdul Kadhar
 - Ryan Collier
-- Teammate 2
-- Teammate 3
+- Rafael Ageno
+- Sonny Taylor
   
 ## 📋 Table of Contents
 
