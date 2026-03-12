@@ -29,7 +29,7 @@ A comprehensive data analysis platform implementing multi-database architectures
 - [Contributing](#-contributing)
 - [License](#-license)
 
-## 🏗️ Overview
+## 🎯 Overview
 
 This project implements a complete data analysis pipeline for e-commerce product recommendations, comparing multiple database technologies, evaluating similarity algorithms, performing customer/product clustering, and building hybrid recommendation engines.
 
@@ -38,7 +38,7 @@ This project implements a complete data analysis pipeline for e-commerce product
 - **112K+ products**
 - **632K+ users**
 
-## 🏗️ Architecture
+## 🎯 Architecture
 
 We implement a **hybrid database architecture** leveraging the strengths of three database systems:
 
