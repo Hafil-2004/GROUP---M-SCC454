@@ -1,16 +1,17 @@
 # Amazon Reviews 2023: Large-Scale Data Analysis Platform
-## 👥 Team
-- HAFIL ABDUL KADHAR
-- Teammate 1
-- Teammate 2
-- Teammate 3
-  
+
 [![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)](https://www.python.org/)
 [![License](https://img.shields.io/badge/License-MIT-green.svg)](LICENSE)
 [![Dataset](https://img.shields.io/badge/Dataset-Amazon%20Reviews%202023-orange.svg)](https://amazon-reviews-2023.github.io/)
 
 A comprehensive data analysis platform implementing multi-database architectures, similarity computation, clustering analysis, and recommendation systems for the Amazon Reviews 2023 dataset (All Beauty category).
 
+## 👥 Team
+- HAFIL ABDUL KADHAR
+- Teammate 1
+- Teammate 2
+- Teammate 3
+  
 ## 📋 Table of Contents
 
 - [Overview](#overview)
