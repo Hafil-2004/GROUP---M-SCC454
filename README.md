@@ -113,7 +113,7 @@ We implement a **hybrid database architecture** leveraging the strengths of thre
 ├── requirements.txt
 └── README.md
 ```
-
+## 🎯 Tasks
 ## 🗄️ Task 1: Database System Comparison
 
 Implemented three database systems with comprehensive performance benchmarking:
