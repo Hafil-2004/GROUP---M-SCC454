@@ -19,7 +19,7 @@ A comprehensive data analysis platform implementing multi-database architectures
 - [Project Structure](#-project-structure)
 - [Tasks](#-tasks)
   - [Task 1: Database System Comparison](#-task-1-database-system-comparison)
-  - [Task 2: Similarity Computation](#  -task-2-similarity-computation)
+  - [Task 2: Similarity Computation](#-task-2-similarity-computation)
   - [Task 3: Clustering Analysis](#-task-3-clustering-analysis)
   - [Task 4: Recommendation System](#-task-4-recommendation-system)
 - [Installation](#-installation)
