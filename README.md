@@ -15,7 +15,7 @@ A comprehensive data analysis platform implementing multi-database architectures
 ## 📋 Table of Contents
 
 - [Overview](#-overview)
-- [Architecture](#-architecture)
+- [Architecture](#architecture)
 - [Project Structure](#-project-structure)
 - [Tasks](#-tasks)
   - [Task 1: Database System Comparison](#-task-1-database-system-comparison)
